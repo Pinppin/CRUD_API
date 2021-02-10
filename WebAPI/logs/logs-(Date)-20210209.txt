@@ -1,0 +1,77 @@
+2021-02-09T18:31:03.4468320+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:31:03.4550979+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:31:03.4573674+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T18:34:28.0346568+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:34:28.0429829+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:34:28.0454547+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T18:36:18.5844987+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:36:18.5922257+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:36:18.5944053+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T18:37:31.5161813+01:00 80000008-0000-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("6"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Users]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;" (627a98df)
+2021-02-09T18:38:07.4663191+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:38:07.4797669+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:38:07.4823678+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T18:38:33.5555363+01:00 80000004-000a-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Users]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;" (627a98df)
+2021-02-09T18:39:49.7184350+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:39:49.7293319+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:39:49.7314783+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T18:40:59.1501597+01:00 8000000a-0006-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Users]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;" (627a98df)
+2021-02-09T18:41:27.4116557+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:41:27.4249061+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:41:27.4279348+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T18:43:05.1557204+01:00 8000000e-0006-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [TaskModels] ([Id], [Description], [State], [Title], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4);" (627a98df)
+2021-02-09T18:43:50.7313803+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:43:50.7421348+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:43:50.7444016+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T18:45:35.9830245+01:00 8000000d-0004-ff00-b63f-84710c7967bb [ERR] Value cannot be null. (Parameter 'entity') (6738f939)
+2021-02-09T18:45:49.5045439+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:45:49.5162387+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:45:49.5187181+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T18:47:17.6641286+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:47:17.6716006+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:47:17.6733417+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T18:54:31.7838106+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T18:54:31.7921978+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T18:54:31.7942529+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T19:01:20.7344524+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T19:01:20.7452222+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T19:01:20.7468584+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T19:02:30.4377446+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T19:02:30.4460569+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T19:02:30.4487143+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T19:04:12.5112700+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T19:04:12.5189705+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T19:04:12.5207803+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T19:07:12.3771202+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T19:07:12.3861000+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T19:07:12.3878655+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T23:12:36.3549695+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T23:12:36.3657530+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T23:12:36.3679951+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T23:18:14.3627833+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T23:18:14.3706645+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T23:18:14.3723910+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T23:28:50.4701398+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T23:28:50.4788697+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T23:28:50.4808648+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T23:33:21.6096938+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T23:33:21.6201704+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T23:33:21.6226554+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-02-09T23:37:14.4695032+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-09T23:37:14.4819128+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-09T23:37:14.4842252+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)

@@ -1,0 +1,6 @@
+2021-01-27T17:26:03.1073239+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-27T17:26:03.1143198+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-27T17:26:03.1162292+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
+2021-01-27T17:28:37.7160302+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-27T17:28:37.7239216+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-27T17:28:37.7262175+01:00  [INF] Content root path: "C:\Users\Fabbri\source\repos\WebAPI" (b5d60022)
